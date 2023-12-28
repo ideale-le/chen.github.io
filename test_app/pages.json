@@ -1,0 +1,82 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle":"custom",
+				"navigationBarBackgroundColor":"#fffbff"
+			}
+		},
+		{
+			"path": "pages/sort/sort",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#fffbff",
+				"navigationStyle": "custom"
+				// "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/study/study",
+			"style": {
+				// "navigationBarTitleText": "study",
+				// "navigationBarBackgroundColor": "#00b783",
+				// "navigationBarTextStyle": "white",
+				// "enablePullDownRefresh": false
+				"navigationStyle":"custom",
+				"navigationBarBackgroundColor":"#fffbff"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				// "navigationBarTitleText": "my",
+				// "navigationBarBackgroundColor": "#00b783",
+				// "navigationBarTextStyle": "white",
+				// "enablePullDownRefresh": false
+				"navigationStyle":"custom",
+				"navigationBarBackgroundColor":"#fffbff"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#999",
+		"selectedColor": "#00b783",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list":[
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabar1.png",
+				"selectedIconPath": "static/tabaron1.png",
+				"text":"主页"
+				
+			},
+			{
+				"pagePath": "pages/sort/sort",
+				"iconPath": "static/tabar2.png",
+				"selectedIconPath": "static/tabaron2.png",
+				"text":"分类"
+			},
+			{
+				"pagePath": "pages/study/study",
+				"iconPath": "static/tabar3.png",
+				"selectedIconPath": "static/tabaron3.png",
+				"text":"学习"
+			},{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabar4.png",
+				"selectedIconPath": "static/tabaron4.png",
+				"text":"我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
